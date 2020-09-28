@@ -1,0 +1,224 @@
+html, body {
+  margin: 0;
+  height: 100%
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.header {
+  flex: 0 1 auto;
+
+  padding: 10px 10px 7px 10px;
+  text-align: left;
+  background: #51247A;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  height: 75px;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #51247A;
+}
+
+.logo-text {
+  height: 75px;
+  width: 200px;
+
+  background-color: #51247A;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #51247A;
+  color: white;
+  padding: 0px 0px 0px 0px;
+  font-size: 17px;
+
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: optima;
+  font-size: 17px;
+  padding: 0px 20px;
+
+  transition: all 0.3s ease;
+  border-radius: 30px;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #7543a3;
+}
+
+.row {
+  flex: 1 1 auto;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.directory-container {
+  flex: 0 1 208px;
+  display: flex;
+  height: 100%;
+
+  box-sizing: border-box;
+  padding: 20px 0px;
+  background-color: #333333;
+}
+
+.directory {
+  height: 380px;
+  width: 100%;
+
+  background-color: #51247A;
+  padding: 0px 5px;
+  font-family: optima;
+  color: white;
+}
+
+.directory h3 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.directory a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.directory a:hover {
+  text-decoration: underline;
+}
+
+.website-links-column {
+  flex: 1 1 auto;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 20px 0px;
+  /*background-image: url("Images/background/goldenRatio5.png"),
+  linear-gradient(#bdd8ff, #ffe4db);*/
+  background-image: 
+  linear-gradient(#51247A, #ffe08a);
+  background-size: cover;
+}
+
+.search-bar {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  background-color: white;
+  width: 600px;
+  font-size: 20px;
+  padding: 10px 0px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.search-bar a img {
+  width: 355px;
+  height: 120px;
+  padding: 10px 0px;
+}
+
+.search-bar input {
+  width: 480px;
+  height: 25px;
+
+  border: 1px solid black;
+  border-radius: 15px;
+  text-indent: 10px;
+}
+
+.search-bar input::placeholder {
+  font-size: 12px;
+}
+
+.grid-links {
+  flex: 1 1 auto;
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  background-color: white;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.link-row {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  background-color: white;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.link-row a {
+  color: white;
+  text-decoration: none;
+
+  padding: 30px;
+
+}
+.link-row a img {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px 25px 15px;
+}
+
+.footer {
+  flex: 0 1 5px;
+  background-color: #333333;
+  border-top: 5px solid white;
+
+  box-sizing: border-box;
+  font-size: 12px;
+  color: white;
+  text-align: right;
+  padding: 0px 10px;
+}
